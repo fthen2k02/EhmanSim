@@ -2,6 +2,8 @@
 
 A simple mod for Grand Theft Auto V PC that moves the camera (together with the character) along the beam of each of the six radio telescopes in the Grand Senora Desert.
 
+Context: <https://www.reddit.com/r/chiliadmystery/comments/16zej8k/making_a_jerry_ehman_simulator_a_theory_neither/>
+
 ## Dependencies
 
 * [ScriptHookV](http://www.dev-c.com/gtav/scripthookv/);
@@ -20,6 +22,7 @@ Just drop `EhmanSim.3.cs` into your `scripts` folder.
 * **NUM5** - enable/disable the spotlight while following the beams;
 * **NUM7** - start/stop movement along beams;
 * **NUM9** - toggle between looking forward/backward;
+    - "In production", it will be recommended to look only in the direction of movement, because the objects we are looking for might be designed to disappear if we get too close, similar to the Halloween UFOs in the first stages of the event.
 * **NUM4/6** - decrease/increase speed;
 * **NUM8** - spawn a demo object (Omega's small UFO) on the current beam, visible only within a 5-unit range, such that you will enter that range after 3 seconds if you keep the current speed;
 * **NUM2** - delete all spawned demo objects.
